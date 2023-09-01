@@ -76,6 +76,21 @@ const yearUntilRetirement = (birthYear, firstName) => {
 console.log(yearUntilRetirement(1972, 'BAB'))
 console.log(yearUntilRetirement(1973, 'MEGH'))
 
+// Arrays
+const friend1 = "Shaymal";
+const friend2 = "Bimol";
+const friend3 = "Amal";
+
+const friends = ["Shamal", "Bimol", "Amal"];
+console.log(friends);
+
+const years = new Array(1971, 1972, 1973);
+
+console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
+
+console.log(friends.length);
 
 
 
