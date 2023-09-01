@@ -92,6 +92,28 @@ console.log(friends[2]);
 
 console.log(friends.length);
 
+// Add elements with push()
+const friends01 = ["Amal", "Bimal", "Shaymal"];
+friends01.push("Nirmal");
+
+console.log(friends01);
+
+// Add elements with unshift()
+
+friends01.unshift("Sunirmal");
+
+console.log(friends01);
+
+//Removing last elements
+friends01.pop();
+console.log(friends01);
+
+//removing first element 
+friends01.shift();
+console.log(friends01);
+
+
+
 
 
 
